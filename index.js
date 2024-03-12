@@ -19,7 +19,7 @@ app.post("/create_preference", (req, res) => {
     let preference = {
       items: req.body.items,
       back_urls: {
-        success: "https://distribuidora-barbara.vercel.app/paymentsuccess",
+        success: "https://distribuidora-barbara.vercel.app/checkout/paymentsuccess",
         failure: "https://distribuidora-barbara.vercel.app/checkout",
         pending: "",
       },
